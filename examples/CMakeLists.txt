@@ -1,12 +1,12 @@
-#----------------------------------------------------------------------------
-# Add example executable
-add_executable(example_app main.cpp physic.cpp simulation.cpp)
+add_executable(LogSvcExample
+    Main.cpp
+    Pizza.cpp
+    Physic.cpp
+)
 
-# Include directories
-target_include_directories(example_app PRIVATE ${INCLUDE_DIR} ${EXTERNALS_DIR})
+target_include_directories(LogSvcExample PRIVATE 
+    ${CMAKE_SOURCE_DIR}/src
+    ${CMAKE_SOURCE_DIR}/externals
+)
 
-# Link libraries
-target_link_libraries(example_app PRIVATE LogSvc pthread dl)
-
-# Ensure loguru uses FMT
-target_compile_definitions(example_app PRIVATE LOGURU_USE_FMTLIB=1)
+target_link_libraries(LogSvcExample PRIVATE LogSvc)
