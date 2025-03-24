@@ -2,7 +2,7 @@
 
 ## 🎩 Introduction
 
-Welcome to **LogSvc**—your friendly, ultra-flexible logging service built upon the legendary [Loguru](https://github.com/emilk/loguru) library! Originally conceived to handle complex scientific computations, LogSvc now proudly stands on its own feet, ready to gracefully handle logging tasks in any C++ application you throw at it.
+Welcome to **LogSvc**—your friendly, ultra-flexible logging service built upon the [Loguru](https://github.com/emilk/loguru) library! Originally conceived to handle complex scientific computations, LogSvc now proudly stands on its own feet, ready to gracefully handle logging tasks in any C++ application you throw at it.
 
 ---
 
