@@ -91,6 +91,8 @@ LogSvc::SetTerminalLogLevel(loguru::Verbosity_ERROR);
 
 ## ⚙️ Advanced Custom Callbacks
 
+**Disclaimer:** The following examples demonstrate the direct use of Loguru's callback mechanism, not custom LogSvc-specific functionality. However, you can easily extend or integrate similar callbacks within your LogSvc setup.
+
 Use callbacks for sophisticated logging behaviors:
 
 ```cpp
